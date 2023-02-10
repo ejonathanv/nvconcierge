@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}" />
     <!-- Website Style -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <!-- Website Responsive -->
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
 
   </head>
   <body>

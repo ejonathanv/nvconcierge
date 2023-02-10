@@ -1,0 +1,202 @@
+@media screen and (max-width: 768px) {
+
+    h1{
+        font-size: 1.75rem;
+    }
+
+    h2{
+        font-size: 1.25rem;
+    }
+
+    .lead{
+        font-size: 1rem !important;
+        line-height: 1.75rem !important;
+    }
+
+    .website__header {
+        position: relative;
+    }
+
+    .website__header__logo img{
+        width: 200px;
+        height: auto;
+    }
+
+    .mobile_menu_bars {
+        display: block;
+        font-size: 1.5rem;
+        color: #27283C;
+    }
+
+    .website__cover{
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .website__cover__slider__container{
+        position: relative;
+        height: 240px;
+    }
+
+    .website__cover__slider{
+        height: 240px;
+        width: 100%;
+    }
+
+    .website__cover__slider__item{
+        height: 240px;
+        width: 100%;
+    }
+
+    .website__services__carousel{
+        padding: 2rem 0;
+    }
+
+    .owl-services-control, .owl-vehicles-control{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        font-size: 1rem;
+        background: #27283C;
+        color: #E6EDF4;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        text-decoration: none;
+    }
+
+    .owl-services-control.owl-services-prev, .owl-vehicles-control.owl-vehicles-prev{
+        left: 5px;
+    }
+    
+    .owl-services-control.owl-services-next, .owl-vehicles-control.owl-vehicles-next{
+        right: 5px;
+    }
+
+    .website__services__icons{
+        padding: 2rem 0;
+    }
+
+    .website__services__icons i{
+        font-size: 1.5rem;
+    }
+
+    .website__vehicles__carousel{
+        padding: 2rem 0;
+    }
+
+    .vehicle__box__square {
+        position: absolute;
+        top: 10px;
+        left: 45px;
+        width: 73%;
+        height: 70%;
+        background-color: #EAEFFC;
+        opacity: 0.60;
+        z-index: 1;
+    }
+
+    .vehicle__box__desc .title {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: auto !important;
+        color: #27283C;
+        padding-right: 10px;
+        padding-left: 40px;
+        margin-bottom: 0px !important;
+    }
+
+    .vehicle__box__desc .subtitle {
+        font-size: .9rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        color: #b9ac4e;
+        padding-left: 40px;
+    }
+
+    .vehicle__box__photo {
+        width: 100%;
+        position: absolute;
+        bottom: 3px;
+        right: 55px;
+        z-index: 3;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .website__slogan{
+        background-color: #27283C;
+        background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        padding: 3rem 0;
+        position: relative;
+        height: auto;
+    }
+
+    .website__slogan .title{
+        color: #E6EDF4;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+    }
+
+    .website__clients{
+        padding: 2rem 0;
+    }
+
+    .website__clients img{
+        max-width: 28%;
+        max-height: 65px;
+        margin-bottom: 1rem;
+        opacity: 0.6;
+    }
+
+    .website__testimonials{
+        padding: 2rem 0;
+    }
+
+    .testimonial__box{
+        padding: 1rem;
+        margin-bottom: .75rem;
+    }
+
+    .testimonial__box h1{
+        font-size: .75rem;
+        font-weight: 700;
+    }
+
+    .testimonial__box p{
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+
+    .website__testimonials__view__all__link{
+        height: 60%;
+        padding: 2rem 0;
+    }
+
+    .website__testimonials__view__all__link a{
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .website__footer{
+        padding: 2rem 0 8rem 0;
+    }
+
+    .whatsapp_chat{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin: 0 0 .85rem .75rem;
+    }
+}

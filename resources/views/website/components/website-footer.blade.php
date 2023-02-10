@@ -2,12 +2,12 @@
 <footer class="website__footer">
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
                 <a href="#" class="logo">
                     <img src="{{ asset('img/logo_horizontal_white.svg') }}" alt="NV Concierge - Tijuana">
                 </a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 my-5 my-md-0 d-none d-md-block">
                 <nav class="footer__nav">
                     <a href="#">Home</a>
                     <a href="#">About Us</a>
@@ -17,7 +17,7 @@
                     <a href="#">Terms</a>
                 </nav>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <h3 class="mb-3 text-light">Don’t wait any longer, contact us now!</h3>
                 <p class="text-gold">
                     Contact us by phone, e-mail or WhatsApp.
@@ -32,13 +32,13 @@
     </div>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <p class="m-0 small text-light">
                     © 2021 NV Concierge. All rights reserved.
                 </p>
             </div>
-            <div class="col-6 footer__social__icons">
-                <div class="d-flex align-item-center justify-content-end">
+            <div class="col-12 col-md-6 footer__social__icons d-none d-md-block">
+                <div class="d-flex align-item-center justify-content-md-end">
                     <p class="small m-0 text-light">
                         <b>Follow us on:</b>
                     </p>

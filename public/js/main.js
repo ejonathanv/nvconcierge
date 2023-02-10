@@ -53,7 +53,7 @@ var app = {
                 nav: false,
                 dots: false,
                 autoplay: true,
-                autoplayTimeout: 3500,
+                autoplayTimeout: 4500,
                 autoplayHoverPause: true,
                 responsive: {
                     0: {
