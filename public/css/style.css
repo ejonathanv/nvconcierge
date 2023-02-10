@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #27283C;
+    background-color: #E6EDF4;
+}
+
+.main{
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #2A2D36;
+}
+
+p.lead{
+    line-height: 2.4rem;
+}
+
+.text-gold{
+    color: #b9ac4e;
+}
+
+.text-light{
+    color: #E6EDF4;
+}
+
+.website__header{
+    padding: 2rem 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.website__header__lang a{
+    color: #E6EDF4;
+    font-weight: 400;
+    text-decoration: none ;
+    font-size: .9rem;
+}
+
+.website__social__icons{
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.website__social__icons a{
+    color: #E6EDF4;
+    text-decoration: none ;
+}
+
+.website__header__logo img{
+    width: 250px;
+    height: auto;
+}
+
+.website__nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.website__nav a{
+    color: #E6EDF4;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none ;
+}
+
+.website__nav a:hover{
+    color: #E6EDF4;
+    text-decoration: underline;
+}
+
+.website__cover{
+    position: relative;
+    height: 660px;
+    width: 100%;
+}
+
+.website__cover__slider__container{
+    position: absolute;
+    height: 660px;
+    width: 100%;
+    z-index: 1;
+}
+
+.website__cover__slider{
+    height: 660px;
+    width: 60%;
+    position: relative;
+    background: #999;
+}
+
+.website__cover__slider__item{
+    height: 660px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.website__cover__slider__item:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27283C;
+    opacity: 0.75;
+}
+
+.website__cover__content{
+    height: 660px;
+    position: relative;
+    z-index: 2;
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+}
+
+.website__cover__content__desc{
+    background-color: #E6EDF4;
+    padding: 2.5rem 2.5rem 2.5rem 0;
+    width: 50% ;
+}
+
+.website__cover__content__desc .title{
+    font-size: 3.5rem;
+}
+
+.website__cover__content__info h2{
+    color: #E6EDF4;
+}
+
+.owl__services{
+    position: relative;
+}
+
+.owl-services-control{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size: 2rem;
+    color: #27283C;
+}
+
+.owl-services-control.owl-services-prev{
+    left: -50px;
+}
+
+.owl-services-control.owl-services-next{
+    right: -50px;
+}
+
+.owl__services__container{
+    position: relative;
+}
+
+.website__services__carousel{
+    padding: 4rem 0;
+}
+
+.service__box{
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+}
+
+.service__box:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27283C;
+    opacity: 0.60;
+    z-index: 1;
+}
+
+.service__box__content{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service__box__title{
+    color: #E6EDF4;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.service__box__link{
+    margin-top: auto;
+    position: relative;
+}
+
+.service__box__link a{
+    color: #E6EDF4;
+    font-size: .85rem;
+    font-weight: 700;
+    text-decoration: none ;
+}
+
+.service__box__link a:hover{
+    color: #b9ac4e;
+    text-decoration: underline;
+}
+
+.service__box__link:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    width: 40%;
+    height: 2px;
+    background-color: #b9ac4e;
+    transform: translateY(-50%);
+}
+
+.website__services__icons{
+    background-color: #27283C;
+    background-image: url('../img/timon-studler-ABGaVhJxwDQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7rem 0;
+    position: relative;
+}
+
+.website__services__icons:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27283C;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.website__services__icons .container{
+    position: relative;
+    z-index: 2;
+}
+
+.website__services__icons i{
+    color: #EAEFFC;
+    font-size: 2rem;
+}
+
+.website__vehicles__carousel{
+    padding: 4rem 0;
+    background: #fff;
+}
+
+.vehicle__box{
+    position: relative;
+    height: 240px;
+}
+
+.vehicle__box__square{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background-color: #EAEFFC;
+    opacity: 0.60;
+    z-index: 1;
+}
+
+.vehicle__box__desc{
+    padding: 1.35rem;
+    position: relative;
+    z-index: 2;
+}
+
+.vehicle__box__desc .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #27283C;
+    padding-right: 60px;
+}
+
+.vehicle__box__desc .subtitle{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #b9ac4e;
+}
+
+.vehicle__box__photo{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.vehicle__box__photo img{
+    width: 65% !important;
+}
+
+.owl__vehicles{
+    position: relative;
+}
+
+.owl-vehicles-control{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size: 2rem;
+    color: #27283C;
+}
+
+.owl-vehicles-control.owl-vehicles-prev{
+    left: -50px;
+}
+
+.owl-vehicles-control.owl-vehicles-next{
+    right: -50px;
+}
+
+.website__slogan{
+    background-color: #27283C;
+    background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 4rem 0;
+    position: relative;
+    height: 600px;
+}
+
+.website__slogan:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27283C;
+    opacity: 0.60;
+    z-index: 1;
+}
+
+.website__slogan .container{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.website__slogan .title{
+    color: #E6EDF4;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.website__slogan .title:after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #b9ac4e;
+    margin-top: 1.8rem;
+}
+
+.website__clients{
+    padding: 4rem 0;
+    background-color: #27283C;
+}
+
+.website__clients h1{
+    color: #b9ac4e;
+    font-size: 1.5rem;
+}
+
+.website__clients img{
+    max-width: 120px;
+    max-height: 90px;
+    -webkit-mix-blend-mode: screen;
+    mix-blend-mode: screen;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+
+}
+
+.website__testimonials{
+    padding: 4rem 0;
+    background-color: #E6EDF4;
+    position: relative;
+}
+
+.website__testimonials__view__all__link{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 4;
+    height: 80%;
+    padding: 3rem 0;
+    background: linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
+}
+
+.website__testimonials__view__all__link a{
+    display: block;
+    text-align: center;
+    color: #27283C;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+
+.testimonial__box{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial__box h1{
+    font-size: .9rem;
+    font-weight: 700;
+    color: #27283C;
+}
+
+.testimonial__box p{
+    font-weight: 400;
+    color: #27283C;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    line-height: 1.85rem;
+}
+
+.website__footer{
+    padding: 4rem 0;
+    background-color: #27283C;
+}
+
+.website__footer .logo img{
+    width: 250px;
+    height: auto;
+}
+
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nav a{
+    color: #E6EDF4;
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.footer__nav a:hover{
+    color: #b9ac4e;
+}
+
+.footer__social__icons a{
+    color: #E6EDF4;
+    font-size: .9rem;
+    margin-left: 1rem;
+}
+
+.footer__social__icons a:hover{
+    color: #b9ac4e;
+}
+
+.whatsapp_chat{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 2rem 2rem;
+    z-index: 999;
+}
+
+.whatsapp_bubble{
+    padding: .5rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+.whatsapp_chat a{
+    display: flex;
+    align-items: center;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.whatsapp_chat img{
+    width: 60px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.whatsapp_chat p{
+    font-size: .7rem;
+    font-weight: 700;
+    line-height: 1rem;
+    color: #27283C;
+}
+
+.whatsapp_chat h6{
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1rem;
+    display: block;
+    margin-bottom: .5rem !important;
+    color: #27283C;
+}
