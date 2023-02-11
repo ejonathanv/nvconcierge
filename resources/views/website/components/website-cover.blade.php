@@ -8,7 +8,10 @@
             professional, trustworthy and tailor-made manner.
         </p>
         <h2 class="mt-4">
-            +52 (664) 386 5794
+            <!-- We need an anchor for phone +52 (664) 386 5794 -->
+            <a href="tel:+526643865794" class="text-gold">
+                +52 (664) 386 5794
+            </a>
         </h2>
     </div>
     <div class="d-flex website__cover__slider__container">
@@ -17,18 +20,14 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="website__cover__slider__item" style="
-                    background-image: url({{ asset('img/banners/mazda_c5.jpeg') }});
-                  "></div>
+                    background-image: url({{ asset('img/banners/mazda_c5.jpeg') }})"></div>
                     </div>
                     <div class="carousel-item">
                         <div class="website__cover__slider__item" style="
-                    background-image: url({{ asset('img/banners/chrysler_town_and_country.jpg') }});
-                  "></div>
+                    background-image: url({{ asset('img/banners/chrysler_town_and_country.jpg') }})"></div>
                     </div>
                     <div class="carousel-item">
-                        <div class="website__cover__slider__item" style="
-                    background-image: url({{ asset('img/banners/toyota_hiace.jpg') }});
-                  "></div>
+                        <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/toyota_hiace.jpg') }})"></div>
                     </div>
                 </div>
             </div>
