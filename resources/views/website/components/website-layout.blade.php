@@ -9,22 +9,6 @@
     <meta name="keywords" content="Concierge, Services, Tijuana, San Diego," />
     <title>NV CONCIERGE - NOUVELLE VIE</title>
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}" />
-    <!-- Website Style -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
-    <!-- Website Responsive -->
-    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
-
-    <!-- Drift snippet -->
     <!-- Start of Async Drift Code -->
     <script>
     "use strict";
@@ -54,6 +38,20 @@
     </script>
     <!-- End of Async Drift Code -->
 
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}" />
+    <!-- Website Style -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <!-- Website Responsive -->
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
   </head>
   <body>
     <x-website-header />

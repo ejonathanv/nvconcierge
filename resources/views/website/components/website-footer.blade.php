@@ -56,16 +56,16 @@
 
 <div class="whatsapp_chat">
     <a href="https://wa.me/526643865794" target="_blank">
-        <div>
-            <img src="img/whatsapp-icon.svg" alt="WhatsApp">
-        </div>
         <div class="whatsapp_bubble">
             <h6 class="mb-0">
                 Need help?
             </h6>
             <p class="mb-0">
-                Chat with us on WhatsApp
+                Chat with us!
             </p>
+        </div>
+        <div>
+            <img src="img/whatsapp-icon.svg" alt="WhatsApp">
         </div>
     </a>
 </div>

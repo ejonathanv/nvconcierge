@@ -28,11 +28,11 @@
                 <div class="vehicle__box">
                     <div class="vehicle__box__square"></div>
                     <div class="vehicle__box__desc">
-                        <h1 class="title">Nissan Hiace</h1>
+                        <h1 class="title">Toyota Hiace</h1>
                         <h4 class="subtitle">12 Passengers</h4>
                     </div>
                     <div class="vehicle__box__photo">
-                        <img src="img/vehicles/nissan_hiace.png" alt="Nissan Hiace - 12 Passengers - NV Concierge">
+                        <img src="img/vehicles/toyota_hiace.png" alt="Toyota Hiace - 12 Passengers - NV Concierge">
                     </div>
                 </div>
 
