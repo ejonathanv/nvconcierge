@@ -3,12 +3,30 @@ var app = {
 
         const t = this.methods;
 
+        t.mobile_menu();
         t.owl_services();
         t.owl_vehicles();
 
     },
 
     methods: {
+        mobile_menu() {
+            let btn = $('.mobile_menu_bars');
+            let menu = $('.mobile__menu__container');
+            let close_btn = $('.mobile_menu_close');
+            let body = $('body');
+
+            btn.click(function() {
+                menu.addClass('active');
+                body.addClass('overflow-hidden');
+                body.scrollTop(0);
+            });
+
+            close_btn.click(function() {
+                menu.removeClass('active');
+                body.removeClass('overflow-hidden');
+            });
+        },
         owl_services() {
             let owl_services = $('.owl-services');
             // Necesitamos activar el carousel .owl-services

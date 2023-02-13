@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 col-md-4 mb-5 mb-md-0">
                 <a href="#" class="logo">
-                    <img src="{{ asset('img/logo_horizontal_white.svg') }}" alt="NV Concierge - Tijuana">
+                    <img src="{{ asset('img/nv_concierge_logo_white.svg') }}" alt="NV Concierge - Tijuana">
                 </a>
             </div>
             <div class="col-12 col-md-4 my-5 my-md-0 d-none d-md-block">
