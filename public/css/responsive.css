@@ -25,7 +25,7 @@
     .mobile_menu_bars {
         display: block;
         font-size: 1.5rem;
-        color: #27283C;
+        color: #222222;
     }
 
     .website__cover{
@@ -104,7 +104,7 @@
         font-size: 1rem;
         font-weight: 700;
         line-height: auto !important;
-        color: #27283C;
+        color: #222222;
         padding-right: 10px;
         padding-left: 40px;
         margin-bottom: 0px !important;
@@ -114,7 +114,6 @@
         font-size: .9rem;
         font-weight: 700;
         line-height: 1.5rem;
-        color: #b9ac4e;
         padding-left: 40px;
     }
 
@@ -130,7 +129,7 @@
     }
 
     .website__slogan{
-        background-color: #27283C;
+        background-color: #222222;
         background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
