@@ -55,6 +55,9 @@
     }();
     drift.SNIPPET_VERSION = '0.3.1';
     drift.load('5i3ykgkiawgg');
+    drift.on('ready', function(api, payload) {
+        api.openChat();
+    });
     </script>
     <!-- End of Async Drift Code -->
 

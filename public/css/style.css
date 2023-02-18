@@ -6,8 +6,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #222222;
-    background-color: #F9F6F2;
+    color: #23334a;
+    background-color: #e4edfb;
 }
 
 .main{
@@ -25,11 +25,11 @@ p.lead{
 }
 
 .text-gold{
-    color: #EA9600;
+    color: #777777;
 }
 
 .text-light{
-    color: #F9F6F2;
+    color: #e4edfb;
 }
 
 .website__header{
@@ -40,7 +40,7 @@ p.lead{
 }
 
 .website__header__lang a{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-weight: 400;
     text-decoration: none ;
     font-size: .9rem;
@@ -53,7 +53,7 @@ p.lead{
 }
 
 .website__social__icons a{
-    color: #F9F6F2;
+    color: #e4edfb;
     text-decoration: none ;
 }
 
@@ -70,39 +70,53 @@ p.lead{
 }
 
 .website__nav a{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none ;
 }
 
 .website__nav a:hover{
-    color: #F9F6F2;
+    color: #e4edfb;
     text-decoration: underline;
 }
 
 .website__cover{
     position: relative;
-    height: 660px;
+    height: 85vh;
     width: 100%;
+}
+
+.website__cover .swatches {
+	position: absolute;
+	top: -77px;
+	left: -90px;
+	z-index: 1;
+	background-image: url(../img/swatches.svg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 800px;
+	height: 800px;
+	opacity: .7;
 }
 
 .website__cover__slider__container{
     position: absolute;
-    height: 660px;
+    height: 85vh;
     width: 100%;
     z-index: 1;
 }
 
 .website__cover__slider{
-    height: 660px;
-    width: 60%;
+    height: 85vh;
+    width: 70%;
     position: relative;
     background: #999;
 }
 
 .website__cover__slider__item{
-    height: 660px;
+    height: 85vh;
     width: 100%;
     position: relative;
     background-position: center;
@@ -117,21 +131,21 @@ p.lead{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #222222;
-    opacity: 0.75;
+    background-color: #23334a;
+    opacity: 0.6;
 }
 
-.website__cover__content{
-    height: 660px;
-    position: relative;
-    z-index: 2;
-    padding-top: 5rem;
-    padding-bottom: 3.5rem;
+.website__cover__content {
+	height: 78vh;
+	position: relative;
+	z-index: 2;
+	padding-top: 12rem;
+	padding-bottom: 3.5rem;
 }
 
 .website__cover__content__desc{
-    background-color: #F9F6F2;
-    padding: 2.5rem 2.5rem 2.5rem 0;
+    background-color: #e4edfb;
+    padding: 2.5rem;
     width: 50% ;
 }
 
@@ -140,7 +154,7 @@ p.lead{
 }
 
 .website__cover__content__info h2{
-    color: #F9F6F2;
+    color: #e4edfb;
 }
 
 .owl__services{
@@ -153,7 +167,7 @@ p.lead{
     transform: translateY(-50%);
     z-index: 2;
     font-size: 2rem;
-    color: #222222;
+    color: #23334a;
 }
 
 .owl-services-control.owl-services-prev{
@@ -189,7 +203,7 @@ p.lead{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #222222;
+    background-color: #23334a;
     opacity: 0.60;
     z-index: 1;
 }
@@ -203,7 +217,7 @@ p.lead{
 }
 
 .service__box__title{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5rem;
@@ -215,14 +229,14 @@ p.lead{
 }
 
 .service__box__link a{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-size: .85rem;
     font-weight: 700;
     text-decoration: none ;
 }
 
 .service__box__link a:hover{
-    color: #EA9600;
+    color: #777777;
     text-decoration: underline;
 }
 
@@ -233,16 +247,17 @@ p.lead{
     right: -30px;
     width: 40%;
     height: 2px;
-    background-color: #EA9600;
+    background-color: #777777;
     transform: translateY(-50%);
 }
 
 .website__services__icons{
-    background-color: #222222;
-    background-image: url('../img/timon-studler-ABGaVhJxwDQ-unsplash.jpg');
+    background-color: #23334a;
+    background-image: url('../img/pexels-victor-roque-446974.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding: 7rem 0;
     position: relative;
 }
@@ -254,7 +269,7 @@ p.lead{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #222222;
+    background-color: #23334a;
     opacity: 0.8;
     z-index: 1;
 }
@@ -301,7 +316,7 @@ p.lead{
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2rem;
-    color: #222222;
+    color: #23334a;
     padding-right: 60px;
 }
 
@@ -309,7 +324,7 @@ p.lead{
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5rem;
-    color: #EA9600;
+    color: #777777;
 }
 
 .vehicle__box__photo{
@@ -337,7 +352,7 @@ p.lead{
     transform: translateY(-50%);
     z-index: 2;
     font-size: 2rem;
-    color: #222222;
+    color: #23334a;
 }
 
 .owl-vehicles-control.owl-vehicles-prev{
@@ -349,7 +364,7 @@ p.lead{
 }
 
 .website__slogan{
-    background-color: #222222;
+    background-color: #23334a;
     background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -367,7 +382,7 @@ p.lead{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #222222;
+    background-color: #23334a;
     opacity: 0.60;
     z-index: 1;
 }
@@ -383,7 +398,7 @@ p.lead{
 }
 
 .website__slogan .title{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-size: 2rem;
     font-weight: 700;
     line-height: 3rem;
@@ -394,17 +409,17 @@ p.lead{
     display: block;
     width: 70px;
     height: 4px;
-    background-color: #EA9600;
+    background-color: #777777;
     margin-top: 1.8rem;
 }
 
 .website__clients{
     padding: 4rem 0;
-    background-color: #222222;
+    background-color: #23334a;
 }
 
 .website__clients h1{
-    color: #EA9600;
+    color: #777777;
     font-size: 1.5rem;
 }
 
@@ -420,7 +435,7 @@ p.lead{
 
 .website__testimonials{
     padding: 4rem 0;
-    background-color: #F9F6F2;
+    background-color: #e4edfb;
     position: relative;
 }
 
@@ -442,7 +457,7 @@ p.lead{
 .website__testimonials__view__all__link a{
     display: block;
     text-align: center;
-    color: #222222;
+    color: #23334a;
     font-size: 1.15rem;
     font-weight: 700;
     line-height: 1.5rem;
@@ -460,12 +475,12 @@ p.lead{
 .testimonial__box h1{
     font-size: .9rem;
     font-weight: 700;
-    color: #222222;
+    color: #23334a;
 }
 
 .testimonial__box p{
     font-weight: 400;
-    color: #222222;
+    color: #23334a;
     margin-top: 1rem;
     margin-bottom: 0;
     line-height: 1.85rem;
@@ -473,7 +488,7 @@ p.lead{
 
 .website__footer{
     padding: 4rem 0;
-    background-color: #222222;
+    background-color: #23334a;
 }
 
 .website__footer .logo img{
@@ -487,7 +502,7 @@ p.lead{
 }
 
 .footer__nav a{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-size: .9rem;
     font-weight: 700;
     line-height: 1.5rem;
@@ -496,17 +511,17 @@ p.lead{
 }
 
 .footer__nav a:hover{
-    color: #EA9600;
+    color: #777777;
 }
 
 .footer__social__icons a{
-    color: #F9F6F2;
+    color: #e4edfb;
     font-size: .9rem;
     margin-left: 1rem;
 }
 
 .footer__social__icons a:hover{
-    color: #EA9600;
+    color: #777777;
 }
 
 .whatsapp_chat{
@@ -541,7 +556,7 @@ p.lead{
     font-size: .7rem;
     font-weight: 700;
     line-height: 1rem;
-    color: #222222;
+    color: #23334a;
 }
 
 .whatsapp_chat h6{
@@ -550,5 +565,31 @@ p.lead{
     line-height: 1rem;
     display: block;
     margin-bottom: .5rem !important;
-    color: #222222;
+    color: #23334a;
+}
+
+.contact__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: calc(50% - 100px);
+    right: 37px;
+    z-index: 999;
+}
+
+.contact__icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: #555;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    color: #eee;
+    text-decoration: none;
+    font-size: 1.5rem;
 }

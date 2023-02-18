@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <p class="m-0 small text-light">
-                    © 2021 NV Concierge. All rights reserved.
+                    © 2020 - {{ date('Y') }} NV Concierge. All rights reserved.
                 </p>
             </div>
             <div class="col-12 col-md-6 footer__social__icons d-none d-md-block">
@@ -46,7 +46,10 @@
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="#" class="social__link">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social__link">
+                        <i class="fab fa-tiktok"></i>
                     </a>
                 </div>
             </div>
@@ -54,18 +57,14 @@
     </div>
 </footer>
 
-<div class="whatsapp_chat">
+<div class="contact__icons d-none d-md-block">
+    <a href="tel:+526643865794" class="phone">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+    <a href="mailto:info@nvconcierge.com" class="email">
+        <i class="fas fa-envelope"></i>
+    </a>
     <a href="https://wa.me/526643865794" target="_blank">
-        <div class="whatsapp_bubble">
-            <h6 class="mb-0">
-                Need help?
-            </h6>
-            <p class="mb-0">
-                Chat with us!
-            </p>
-        </div>
-        <div>
-            <img src="img/whatsapp-icon.svg" alt="WhatsApp">
-        </div>
+        <i class="fab fa-whatsapp"></i>
     </a>
 </div>

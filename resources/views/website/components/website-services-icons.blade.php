@@ -8,4 +8,14 @@
             <i class="fa fa-comments"></i>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 mx-auto">
+                <h5 class="text-white text-center mt-5 mb-0 lh-base">
+                    As your personal assistant while in Tijuana, Mexico, we coordinate all your travel needs. Forget about the stress of calling and arranging all the details yourself.
+                </h5>
+            </div>
+        </div>
+    </div>
 </section>
