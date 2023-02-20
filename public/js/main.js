@@ -4,6 +4,7 @@ var app = {
         const t = this.methods;
 
         t.mobile_menu();
+        t.fixed_menu();
         t.owl_services();
         t.owl_vehicles();
 
@@ -25,6 +26,16 @@ var app = {
             close_btn.click(function() {
                 menu.removeClass('active');
                 body.removeClass('overflow-hidden');
+            });
+        },
+        fixed_menu() {
+            let menu = $('.website__header');
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 180) {
+                    menu.addClass('fixed');
+                } else {
+                    menu.removeClass('fixed');
+                }
             });
         },
         owl_services() {

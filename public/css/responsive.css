@@ -17,9 +17,22 @@
         position: relative;
     }
 
+    .website__header__logo__slogan{
+        margin: 0 !important;
+    }
+
+    .website__header__logo{
+        margin: 0 0 1rem 0 !important;
+    }
+
     .website__header__logo img{
-        width: 170px;
+        width: 140px;
         height: auto;
+    }
+
+    .website__header .website__header__logo__slogan{
+        font-size: .8rem;
+        line-height: 1rem;
     }
 
     .mobile_menu_bars {
@@ -196,6 +209,11 @@
         bottom: 0;
         left: 0;
         margin: 0 0 .85rem .75rem;
+    }
+
+    .website__header.fixed .mobile__menu{
+        position: relative;
+        top: 18px;
     }
 
     .mobile__menu__container{

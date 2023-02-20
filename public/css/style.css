@@ -39,11 +39,29 @@ p.lead{
     width: 100%;
 }
 
+.website__header.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.website__header__lang{
+    margin-bottom: 1rem;
+}
+
 .website__header__lang a{
     color: #e4edfb;
     font-weight: 400;
     text-decoration: none ;
     font-size: .9rem;
+}
+
+.website__header.fixed .website__header__lang a{
+    color: #23334a;
 }
 
 .website__social__icons{
@@ -57,9 +75,34 @@ p.lead{
     text-decoration: none ;
 }
 
+.website__header.fixed .website__social__icons a{
+    color: #23334a;
+}
+
+.website__header__logo{
+    display: block;
+}
+
 .website__header__logo img{
     width: 190px;
     height: auto;
+}
+
+.website__header.fixed .website__header__logo img{
+    width: 110px;
+}
+
+.website__header .website__header__logo__slogan{
+    font-size: 1rem;
+    color: #97a3b5;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.website__header.fixed .website__header__logo__slogan{
+    font-size: .8rem;
 }
 
 .website__nav{
@@ -81,10 +124,15 @@ p.lead{
     text-decoration: underline;
 }
 
+.website__header.fixed .website__nav a{
+    color: #23334a;
+}
+
 .website__cover{
     position: relative;
     height: 85vh;
     width: 100%;
+    min-height: 650px;
 }
 
 .website__cover .swatches {
@@ -106,10 +154,12 @@ p.lead{
     height: 85vh;
     width: 100%;
     z-index: 1;
+    min-height: 650px;
 }
 
 .website__cover__slider{
     height: 85vh;
+    min-height: 650px;
     width: 70%;
     position: relative;
     background: #999;
@@ -117,6 +167,7 @@ p.lead{
 
 .website__cover__slider__item{
     height: 85vh;
+    min-height: 650px;
     width: 100%;
     position: relative;
     background-position: center;
