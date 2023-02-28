@@ -7,25 +7,46 @@
             <img src="{{ asset('img/nv_concierge_logo.svg') }}" alt="NV CONCIERGE" />
           </a>
           <p class="website__header__logo__slogan">
-            <b>Any Task, Just Ask!</b>
+            <b>
+              {{ __('website.slogan') }}
+            </b>
           </p>
         </div>
 
         <!-- Menu -->
         <div>
           <div class="website__header__lang d-none d-md-flex">
-            <a href="#" class="d-flex align-items-center ms-auto">
+            @if(app()->getLocale() == 'es')
+            <a href="{{ route('website.language', 'en') }}"
+              class="d-flex align-items-center ms-auto">
+              <i class="fas fa-globe me-2"></i>
+              <span>Translate to English</span>
+            </a>
+            @else
+            <a href="{{ route('website.language', 'es') }}"
+              class="d-flex align-items-center ms-auto">
               <i class="fas fa-globe me-2"></i>
               <span>Traducir al español</span>
             </a>
+            @endif
           </div>
           <div class="align-items-center d-none d-md-flex">
             <nav class="website__nav">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Testimonials</a>
-              <a href="#">Contact</a>
+              <a href="#">
+                {{ __('website.header.home') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.about') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.services') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.testimonials') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.contact') }}
+              </a>
             </nav>
             <nav class="website__social__icons">
               <a href="http://facebook.com/nvconciergeservices" target="_blank">
@@ -57,11 +78,21 @@
               </a>
             </div>
             <nav class="mobile__menu__nav">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Testimonials</a>
-              <a href="#">Contact</a>
+              <a href="#">
+                {{ __('website.header.home') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.about') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.services') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.testimonials') }}
+              </a>
+              <a href="#">
+                {{ __('website.header.contact') }}
+              </a>
             </nav>
             <nav class="mobile__menu__social__icons">
               <a href="#">

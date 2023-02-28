@@ -1,6 +1,8 @@
 <!-- Clients -->
 <section class="website__clients">
-    <h1 class="mb-4 mb-sm-5 text-center text-white">Our Loyal Clients</h1>
+    <h1 class="mb-4 mb-sm-5 text-center text-white">
+        {{ __('website.clients.title') }}
+    </h1>
     <div class="container d-flex align-items-center justify-content-around flex-wrap">
         <img src="{{ asset('img/clients/dental_image.jpeg') }}" 
             alt="Dental Image Specialty Center - NV Concierge" title="Dental Image Specialty Center - NV Concierge">

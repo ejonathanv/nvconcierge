@@ -7,6 +7,7 @@ var app = {
         t.fixed_menu();
         t.owl_services();
         t.owl_vehicles();
+        t.number_counter_on_scroll();
 
     },
 
@@ -107,6 +108,30 @@ var app = {
                 owl_vehicles.trigger('next.owl.carousel');
             });
 
+        },
+        number_counter_on_scroll() {
+            // let number_counter = $('.number_counter');
+            // Each counter has a data-number_counter attribute with the number to count to
+            let number_counter = $('.number_counter');
+
+            $(window).scroll(function() {
+                number_counter.each(function() {
+                    let $this = $(this);
+                    let top_of_element = $this.offset().top;
+                                        
+
+                    if($this.text() == 0 && $(window).scrollTop() + $(window).height() > top_of_element) {
+                        let number = $this.data('number_counter');
+                        $({ Counter: 0 }).animate({ Counter: number }, {
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.ceil(this.Counter));
+                            }
+                        });
+                    }
+                });
+            });
         }
     },
 }

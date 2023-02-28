@@ -45,21 +45,28 @@
         position: relative;
         height: auto;
         width: 100%;
+        min-height: 240px;
     }
 
     .website__cover__slider__container{
         position: relative;
         height: 240px;
+        max-height: 240px;
+        min-height: 240px;
     }
 
     .website__cover__slider{
         height: 240px;
+        max-height: 240px;
+        min-height: 240px;
         width: 100%;
     }
 
     .website__cover__slider__item{
         height: 240px;
         width: 100%;
+        max-height: 240px;
+        min-height: 240px;
     }
 
     .website__services__carousel{

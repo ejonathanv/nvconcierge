@@ -132,7 +132,7 @@ p.lead{
     position: relative;
     height: 85vh;
     width: 100%;
-    min-height: 650px;
+    min-height: 700px;
 }
 
 .website__cover .swatches {
@@ -144,8 +144,8 @@ p.lead{
 	background-position: bottom left;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 800px;
-	height: 800px;
+	width: 700px;
+	height: 700px;
 	opacity: .7;
 }
 
@@ -159,7 +159,7 @@ p.lead{
 
 .website__cover__slider{
     height: 85vh;
-    min-height: 650px;
+    min-height: 700px;
     width: 70%;
     position: relative;
     background: #999;
@@ -167,7 +167,7 @@ p.lead{
 
 .website__cover__slider__item{
     height: 85vh;
-    min-height: 650px;
+    min-height: 700px;
     width: 100%;
     position: relative;
     background-position: center;
@@ -643,4 +643,24 @@ p.lead{
     color: #eee;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.website__stats{
+    padding: 4rem 0;
+    background-color: #222222;
+}
+
+.website__stats h1{
+    color: #e4edfb;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.website__stats h3{
+    color: #e4edfb;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-top: 1rem;
 }

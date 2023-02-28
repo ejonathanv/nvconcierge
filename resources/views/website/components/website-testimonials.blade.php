@@ -39,7 +39,7 @@
     </div>
     <div class="website__testimonials__view__all__link">
         <a href="#">
-            View all testimonials
+            {{ __('website.testimonials.link') }}
         </a>
     </div>
 </section>

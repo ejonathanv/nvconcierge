@@ -3,12 +3,10 @@
     <div class="swatches d-none d-md-block"></div>
     <div class="container py-4 d-block d-md-none">
         <h1 class="mb-4 title">
-            Premium Private Transportation
+            {{ __('website.cover.title') }}
         </h1>
         <p class="lead m-0">
-            We are committed to quality service at all times. As the Concierge
-            of a hotel, we are ready to meet any mobility need in a
-            professional, trustworthy and tailor-made manner.
+            {{ __('website.cover.subtitle') }}
         </p>
     </div>
     <div class="d-flex website__cover__slider__container">
@@ -50,12 +48,10 @@
     <div class="container website__cover__content align-items-center d-none d-md-flex">
         <div class="website__cover__content__desc">
             <h1 class="mb-4 title">
-                Premium Private Transportation
+                {{ __('website.cover.title') }}
             </h1>
             <p class="lead m-0">
-                We are committed to quality service at all times. As the Concierge
-                of a hotel, we are ready to meet any mobility need in a
-                professional, trustworthy and tailor-made manner.
+                {{ __('website.cover.subtitle') }}
             </p>
         </div>
         <div class="website__cover__content__info mt-auto ms-auto d-flex">
