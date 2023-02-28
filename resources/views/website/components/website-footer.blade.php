@@ -83,7 +83,7 @@
     </div>
 </footer>
 
-<div class="contact__icons d-none d-md-block">
+<div class="contact__icons">
     <a href="tel:+526643865794" class="phone">
         <i class="fas fa-phone-alt"></i>
     </a>
