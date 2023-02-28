@@ -664,3 +664,15 @@ p.lead{
     line-height: 1.5rem;
     margin-top: 1rem;
 }
+
+.translate_icon a{
+    font-size: 1.35rem;
+    color: #222222;
+    position: relative;
+    top: 2px;
+    margin-right: 20px;
+}
+
+.website__header.fixed .translate_icon a{
+    top: 20px;
+}

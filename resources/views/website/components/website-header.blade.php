@@ -1,6 +1,6 @@
 <!-- Header -->
 <header class="website__header">
-      <div class="container d-flex align-items-start align-items-md-center justify-content-between">
+      <div class="container d-flex align-items-start align-items-md-center justify-content-start justify-content-md-between">
         <!-- Logo -->
         <div>
           <a href="#" class="website__header__logo">
@@ -60,6 +60,18 @@
               </a>
             </nav>
           </div>
+        </div>
+
+        <div class="d-block d-md-none translate_icon ms-auto">
+          @if(app()->getLocale() == 'es')
+          <a href="{{ route('website.language', 'en') }}">
+            <i class="fas fa-globe"></i>
+          </a>
+          @else
+          <a href="{{ route('website.language', 'es') }}">
+            <i class="fas fa-globe"></i>
+          </a>
+          @endif
         </div>
 
         <!-- Mobile Menu -->
