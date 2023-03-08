@@ -45,28 +45,49 @@
         position: relative;
         height: auto;
         width: 100%;
-        min-height: 240px;
+        min-height: 450px;
     }
+
+    .website__cover__desc{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .website__cover__desc h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .website__cover__desc p{
+        font-size: .9rem !important;
+        line-height: 1.5rem;
+    }
+
 
     .website__cover__slider__container{
         position: relative;
-        height: 240px;
-        max-height: 240px;
-        min-height: 240px;
+        height: 450px;
+        max-height: 450px;
+        min-height: 450px;
     }
 
     .website__cover__slider{
-        height: 240px;
-        max-height: 240px;
-        min-height: 240px;
+        height: 450px;
+        max-height: 450px;
+        min-height: 450px;
         width: 100%;
     }
 
     .website__cover__slider__item{
-        height: 240px;
+        height: 450px;
         width: 100%;
-        max-height: 240px;
-        min-height: 240px;
+        max-height: 450px;
+        min-height: 450px;
     }
 
     .website__services__carousel{

@@ -12,9 +12,9 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 mx-auto">
-                <h5 class="text-white text-center mt-5 mb-0 lh-base">
+                <p class="text-white text-center mt-5 mb-0 lead">
                     {{ __('website.services.icons_legend') }}
-                </h5>
+                </p>
             </div>
         </div>
     </div>

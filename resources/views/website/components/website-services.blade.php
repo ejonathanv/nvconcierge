@@ -19,7 +19,7 @@
                     </div>
                 </div>
 
-                <div class="service__box" style="background-image: url({{ asset('img/services/christopher-boswell-GEzNsJarkGU-unsplash.jpg') }})">
+                <div class="service__box" style="background-image: url({{ asset('img/services/pexels-cottonbro-studio-7581589.jpg') }})">
                     <div class="service__box__content">
                         <h1 class="service__box__title text-uppercase">
                             {{ __('website.services.non_emergency') }}
@@ -45,7 +45,7 @@
                     </div>
                 </div>
 
-                <div class="service__box" style="background-image: url({{ asset('img/services/jason-goodman-Ti7LQ0r-zy4-unsplash.jpg') }})">
+                <div class="service__box" style="background-image: url({{ asset('img/services/pexels-yan-krukau-8867258.jpg') }})">
                     <div class="service__box__content">
                         <h1 class="service__box__title text-uppercase">
                             {{ __('website.services.translation') }}

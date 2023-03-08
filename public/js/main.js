@@ -4,7 +4,7 @@ var app = {
         const t = this.methods;
 
         t.mobile_menu();
-        t.fixed_menu();
+        // t.fixed_menu();
         t.owl_services();
         t.owl_vehicles();
         t.number_counter_on_scroll();

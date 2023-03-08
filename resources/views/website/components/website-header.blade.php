@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="website__header">
+<header class="website__header fixed">
       <div class="container d-flex align-items-start align-items-md-center justify-content-start justify-content-md-between">
         <!-- Logo -->
         <div>
