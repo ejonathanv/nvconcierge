@@ -74,7 +74,7 @@ return [
                 'title' => 'Follow Us',
             ],
             'contact' => [
-                'title' => "Don't wait any longer, contact us now!",
+                'title' => "Contact information",
                 'subtitle' => 'Contact us by phone, e-mail or WhatsApp.',
                 'phone' => 'Phone: +52 (664) 386 5794',
                 'email' => 'E-mail: nouvellevietj@gmail.com',

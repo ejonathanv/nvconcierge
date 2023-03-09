@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="service__box" style="background-image: url({{ asset('img/services/cristofer-maximilian-iYn35RwhQTE-unsplash.jpg') }})">
+                <div class="service__box" style="background-image: url({{ asset('img/services/Business_Transportation.png') }})">
                     <div class="service__box__content">
                         <h1 class="service__box__title text-uppercase">
                             {{ __('website.services.business') }}
