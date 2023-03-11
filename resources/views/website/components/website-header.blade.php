@@ -3,7 +3,7 @@
       <div class="container d-flex align-items-start align-items-md-center justify-content-start justify-content-md-between">
         <!-- Logo -->
         <div>
-          <a href="#" class="website__header__logo">
+          <a href="{{ route('home') }}" class="website__header__logo">
             <img src="{{ asset('img/nv_concierge_logo.svg') }}" alt="NV CONCIERGE" />
           </a>
           <p class="website__header__logo__slogan">
@@ -32,19 +32,19 @@
           </div>
           <div class="align-items-center d-none d-md-flex">
             <nav class="website__nav">
-              <a href="#">
+              <a href="{{ route('home') }}">
                 {{ __('website.header.home') }}
               </a>
-              <a href="#">
+              <a href="{{ route('about') }}">
                 {{ __('website.header.about') }}
               </a>
-              <a href="#">
+              <a href="{{ route('services') }}">
                 {{ __('website.header.services') }}
               </a>
-              <a href="#">
+              <a href="{{ route('testimonials') }}">
                 {{ __('website.header.testimonials') }}
               </a>
-              <a href="#">
+              <a href="{{ route('contact') }}">
                 {{ __('website.header.contact') }}
               </a>
             </nav>

@@ -11,5 +11,9 @@ Route::get('/setlocale/{locale}', function ($locale) {
     return redirect()->back();
 })->name('website.language');
 
-Route::get('/', [WebsiteController::class, 'index']);
+Route::get('/', [WebsiteController::class, 'index'])->name('home');
+Route::get('/about', [WebsiteController::class, 'about'])->name('about');
+Route::get('/services', [WebsiteController::class, 'services'])->name('services');
+Route::get('/testimonials', [WebsiteController::class, 'testimonials'])->name('testimonials');
+Route::get('/contact', [WebsiteController::class, 'contact'])->name('contact');
 

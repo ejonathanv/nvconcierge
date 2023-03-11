@@ -27,7 +27,7 @@
     <meta name="description" content="NV CONCIERGE - NOUVELLE VIE, ANY TASK JUST ASK" />
     <meta name="keywords" content="Concierge, Services, Tijuana, San Diego," />
     <meta name="format-detection" content="telephone=no">
-    <title>NV CONCIERGE - NOUVELLE VIE</title>
+    <title>{{ isset($pageTitle) ? strtoupper($pageTitle) . ' | ' : ' ' }} NV CONCIERGE - NOUVELLE VIE</title>
 
     <!-- Start of Async Drift Code -->
     <script>

@@ -4,19 +4,23 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class WebsiteLayout extends Component
+class PageJumbotron extends Component
 {
 
-    public $pageTitle;
+    public $title;
+    public $subtitle;
+    public $image;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($pageTitle = null)
+    public function __construct($title, $subtitle, $image)
     {
-        $this->pageTitle = $pageTitle;
+        $this->title = $title;
+        $this->subtitle = $subtitle;
+        $this->image = $image;
     }
 
     /**
@@ -26,6 +30,6 @@ class WebsiteLayout extends Component
      */
     public function render()
     {
-        return view('website.components.website-layout');
+        return view('components.page-jumbotron');
     }
 }

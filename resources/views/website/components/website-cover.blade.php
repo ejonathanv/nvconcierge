@@ -12,7 +12,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="website__cover__slider__item" style="
-                    background-image: url({{ asset('img/banners/tijuana_monumento_arco.jpg') }})"></div>
+                    background-image: url({{ asset('img/banners/new_city_tijuana_nv_concierge.jpeg') }})"></div>
                     </div>
                     <div class="carousel-item">
                         <div class="website__cover__slider__item" style="
@@ -22,7 +22,7 @@
                         <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/SAN_DIEGO_AIRPORT.jpg') }})"></div>
                     </div>
                     <div class="carousel-item">
-                        <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/tijuana_linea_san_ysidro.jpg') }})"></div>
+                        <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/san_diego_petco_park_nv_concierge.jpg') }})"></div>
                     </div>
                 </div>
             </div>

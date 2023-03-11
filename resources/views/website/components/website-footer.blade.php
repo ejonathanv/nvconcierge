@@ -43,9 +43,6 @@
                 <h3 class="mb-3 text-light">
                     {{ __('website.footer.contact.title') }}
                 </h3>
-                <p class="text-gold">
-                    {{ __('website.footer.contact.subtitle') }}
-                </p>
                 <p class="m-0 text-light">
                     {{ __('website.footer.contact.phone') }} <br>
                     {{ __('website.footer.contact.email') }} <br>

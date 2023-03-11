@@ -36,12 +36,13 @@ p.lead{
 .website__header{
     padding: 2rem 0;
     position: absolute;
-    z-index: 10;
+    z-index: 999;
     width: 100%;
 }
 
 .website__header.fixed{
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
@@ -711,4 +712,47 @@ p.lead{
 
 .website__header.fixed .translate_icon a{
     top: 20px;
+}
+
+.jumbotron{
+    background-color: #222222;
+    padding: 7rem 0;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #23334a;
+    opacity: 0.5;
+}
+
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron h1{
+    color: #e4edfb;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.jumbotron p.lead{
+    color: #e4edfb;
+    margin-top: 1rem;
 }
