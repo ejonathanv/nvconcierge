@@ -55,7 +55,7 @@
               <a href="http://instagram.com/nv_concierge_services" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="http://tiktok.com/@nvconciergeservices" target="_blank">
                 <i class="fab fa-tiktok"></i>
               </a>
             </nav>
@@ -107,13 +107,13 @@
               </a>
             </nav>
             <nav class="mobile__menu__social__icons">
-              <a href="#">
+              <a href="http://facebook.com/nvconciergeservices" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
+              <a href="http://instagram.com/nv_concierge_services" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="http://tiktok.com/@nvconciergeservices" target="_blank">
                 <i class="fab fa-tiktok"></i>
               </a>
             </nav>

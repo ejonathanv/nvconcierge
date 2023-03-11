@@ -65,13 +65,13 @@
                             {{ __('website.footer.social.title') }}:
                         </b>
                     </p>
-                    <a href="#" class="social__link">
+                    <a href="https://www.facebook.com/nvconciergeservices" target="_blank" class="social__link">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="social__link">
+                    <a href="https://www.instagram.com/nv_concierge_services/" target="_blank" class="social__link">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#" class="social__link">
+                    <a href="https://tiktok.com/@nvconciergeservices" target="_blank" class="social__link">
                         <i class="fab fa-tiktok"></i>
                     </a>
                 </div>
