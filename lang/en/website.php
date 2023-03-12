@@ -88,7 +88,7 @@ return [
             ],
             'opening' => [
                 'title' => 'Opening Hours',
-                'week' => 'Mon - Fri: 07:00 am - 07:0 pm',
+                'week' => 'Mon - Fri: 07:00 am - 07:00 pm',
                 'weekend' => 'Saturday: 07:00 am - 07:00 pm',
                 'holiday' => 'Sunday: Available on demand',
             ],
