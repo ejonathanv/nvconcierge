@@ -12,7 +12,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="website__cover__slider__item" style="
-                    background-image: url({{ asset('img/banners/new_city_tijuana_nv_concierge.jpeg') }})"></div>
+                    background-image: url({{ asset('img/banners/new_city_tijuana.jpg') }})"></div>
                     </div>
                     <div class="carousel-item">
                         <div class="website__cover__slider__item" style="

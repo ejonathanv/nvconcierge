@@ -88,9 +88,9 @@ return [
             ],
             'opening' => [
                 'title' => 'Opening Hours',
-                'week' => 'Mon - Fri: 10:30 am - 07:30 pm',
-                'weekend' => 'Saturday: 09:00 am - 06:00 pm',
-                'holiday' => 'Sunday: Closed',
+                'week' => 'Mon - Fri: 07:00 am - 07:0 pm',
+                'weekend' => 'Saturday: 07:00 am - 07:00 pm',
+                'holiday' => 'Sunday: Available on demand',
             ],
             'social' => [
                 'title' => 'Follow Us',

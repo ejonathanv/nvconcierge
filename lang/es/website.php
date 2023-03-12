@@ -86,9 +86,9 @@ return [
             ],
             'opening' => [
                 'title' => 'Horario de atención',
-                'week' => 'Lun - Vie: 10:30 am - 07:30 pm',
-                'weekend' => 'Sábado: 09:00 am - 06:00 pm',
-                'holiday' => 'Domingo: Cerrado',
+                'week' => 'Lun - Vie: 07:00 am - 07:00 pm',
+                'weekend' => 'Sábado: 07:00 am - 07:00 pm',
+                'holiday' => 'Domingo: Disponible bajo petición',
             ],
             'social' => [
                 'title' => 'Síguenos en',
