@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-10 mx-auto">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h1 class="display-4 text-white">
                             {{ $title }}
                         </h1>

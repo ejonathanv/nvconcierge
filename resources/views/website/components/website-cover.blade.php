@@ -22,7 +22,7 @@
                         <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/SAN_DIEGO_AIRPORT.jpg') }})"></div>
                     </div>
                     <div class="carousel-item">
-                        <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/san_diego_petco_park_nv_concierge.jpg') }})"></div>
+                        <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/comp-new-tj-hero.jpg') }})"></div>
                     </div>
                 </div>
             </div>

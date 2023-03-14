@@ -756,3 +756,9 @@ p.lead{
     color: #e4edfb;
     margin-top: 1rem;
 }
+
+.flags{
+    height: 100px;
+    width: auto;
+    margin-bottom: 1rem;
+}
