@@ -24,6 +24,9 @@
                     <div class="carousel-item">
                         <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/comp-new-tj-hero.jpg') }})"></div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="website__cover__slider__item" style="background-image: url({{ asset('img/banners/pexels-tiger-lily-4483610.jpg') }})"></div>
+                    </div>
                 </div>
             </div>
         </div>
