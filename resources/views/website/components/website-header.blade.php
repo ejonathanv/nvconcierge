@@ -90,19 +90,19 @@
               </a>
             </div>
             <nav class="mobile__menu__nav">
-              <a href="#">
+              <a href="{{ route('home') }}">
                 {{ __('website.header.home') }}
               </a>
-              <a href="#">
+              <a href="{{ route('about') }}">
                 {{ __('website.header.about') }}
               </a>
-              <a href="#">
+              <a href="{{ route('services') }}">
                 {{ __('website.header.services') }}
               </a>
-              <a href="#">
+              <a href="{{ route('testimonials') }}">
                 {{ __('website.header.testimonials') }}
               </a>
-              <a href="#">
+              <a href="{{ route('contact') }}">
                 {{ __('website.header.contact') }}
               </a>
             </nav>
